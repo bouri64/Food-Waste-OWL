@@ -1,0 +1,2526 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.gra.fo/schema/untitled-ekg"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.gra.fo/schema/untitled-ekg">
+    <Prefix name="" IRI="http://www.gra.fo/schema/untitled-ekg#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="gf" IRI="http://www.gra.fo/schema/untitled-ekg#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/spec/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="untitled-ekg" IRI="http://www.gra.fo/schema/untitled-ekg/"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal></Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <Literal>This ontology is used to determine the different sources of food waste and details adequate ways to get reuse it and not throw it away.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Food Waste Process Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:DevelopmentEnvironment"/>
+        <Literal>Protégé</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:KnowledgeRepresentationLanguage"/>
+        <Literal>OWL version 2</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:contributors"/>
+        <Literal>Mohamed Ali Elbouri, Myriam Hamrouni and Ons Kechaou.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:metrics"/>
+        <Literal>Number of classes= 52, object properties = 34 , data properties = 16 axioms= 576, individuals = 12.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:name"/>
+        <Literal>Food Waste Process Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/CannedBottledGoods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Carbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ConsumedFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Consumers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CupboardShelfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DairyProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DropOffSpecification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/EdibleWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Farmers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FatProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FoodAndAgricultureOrganizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FoodCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FoodProducers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FoodRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FoodServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FoodSuppliers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FreezerShelfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FridgeShelfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Fruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GouvernmentFacilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GrainFlourWheatProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HomelessShelters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/IndustrialUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Industries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Lipid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/MeatProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mineral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/NonEdibleWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/NonOrganic-useRecyclableWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/NonProfitOrganizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/NonRecyclableWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OrganicRecyclableWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/RecyclableWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Recycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Retailers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ShelfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Vitamin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WasteFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WasteFoodActors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WasteFoodProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WasteFoodSources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Wholesalers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#createWasteFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requestCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supply"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplyFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/comsume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/disposeby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/distributefoodto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hascategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hascontact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/haslocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasmethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasnutrient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/haspossiblewastefoodprocess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasshelflife"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hastimeinterval"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/havefoodrequest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/iscategoryof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/manage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/purchase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/recycleby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/redistributefoodby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/savefoodby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sellfoodto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sellpreparedfoodto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sellprocessedfoodto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sellrawmaterialto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sellunprocessedfoodto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/usewastefoodforindustrialuse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/wasfood"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Location_details"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#method_explanation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#time_interval_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/durationSinceProduction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ediblePart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/energy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/isExpired"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/isObsolete"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/isUnwanted"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/preservationMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/quantity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#California"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Homeless_shelter_X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_shelf_life"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Onions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Using_food_in_a_homeless_shelter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drop_off_at_door"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drop_off_specs_number_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food_request_number_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#24_on_24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bob&apos;s_crate_of_onion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:DevelopmentEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:KnowledgeRepresentationLanguage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:contributors"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:metrics"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:owners"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="/Farmers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/FoodSuppliers"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellrawmaterialto"/>
+                <Class IRI="/FoodProducers"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/FoodProducers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/FoodSuppliers"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellprocessedfoodto"/>
+                <Class IRI="/Wholesalers"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Retailers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/FoodSuppliers"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellfoodto"/>
+                <Class IRI="/FoodSuppliers"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Wholesalers"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/FoodSuppliers"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/distributefoodto"/>
+                <Class IRI="/Retailers"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="/CannedBottledGoods"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Carbs"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ConsumedFood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/wasfood"/>
+            <Class IRI="/Food"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Consumers"/>
+        <Class IRI="/WasteFoodActors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Consumers"/>
+        <Class IRI="/WasteFoodSources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Consumers"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/comsume"/>
+                <Class IRI="/ConsumedFood"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/purchase"/>
+                <Class IRI="/Food"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CupboardShelfLife"/>
+        <Class IRI="/ShelfLife"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DairyProducts"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Disposal"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DropOffSpecification"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/haslocation"/>
+                <Class IRI="/Location"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hastimeinterval"/>
+                <Class IRI="/TimeInterval"/>
+            </ObjectSomeValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/hasmethod"/>
+                <Class IRI="/Method"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/EdibleWasteFood"/>
+        <Class IRI="/WasteFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Farmers"/>
+        <Class IRI="/FoodSuppliers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Farmers"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellrawmaterialto"/>
+                <Class IRI="/FoodProducers"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellunprocessedfoodto"/>
+                <Class IRI="/Wholesalers"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FatProducts"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Food"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hascategory"/>
+            <Class IRI="/FoodCategory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Food"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasnutrient"/>
+            <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodAndAgricultureOrganizations"/>
+        <Class IRI="/NonProfitOrganizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodCategory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasshelflife"/>
+            <Class IRI="/ShelfLife"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodCategory"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/iscategoryof"/>
+            <Class IRI="/Food"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodProducers"/>
+        <Class IRI="/FoodSuppliers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodRequest"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/hasdropoffspecification"/>
+            <Class IRI="/DropOffSpecification"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodServices"/>
+        <Class IRI="/FoodSuppliers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodServices"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/sellpreparedfoodto"/>
+            <Class IRI="/Consumers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodSuppliers"/>
+        <Class IRI="/WasteFoodActors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodSuppliers"/>
+        <Class IRI="/WasteFoodSources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FoodSuppliers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supply"/>
+            <Class IRI="/Food"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FreezerShelfLife"/>
+        <Class IRI="/ShelfLife"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FridgeShelfLife"/>
+        <Class IRI="/ShelfLife"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fruits"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GouvernmentFacilities"/>
+        <Class IRI="/WasteFoodActors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GrainFlourWheatProducts"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HomelessShelters"/>
+        <Class IRI="/NonProfitOrganizations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/IndustrialUse"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Industries"/>
+        <Class IRI="/WasteFoodActors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lipid"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/MeatProducts"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mineral"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonEdibleWasteFood"/>
+        <Class IRI="/WasteFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonOrganic-useRecyclableWasteFood"/>
+        <Class IRI="/RecyclableWasteFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonProfitOrganizations"/>
+        <Class IRI="/WasteFoodActors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonRecyclableWasteFood"/>
+        <Class IRI="/NonEdibleWasteFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OrganicRecyclableWasteFood"/>
+        <Class IRI="/RecyclableWasteFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protein"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/RecyclableWasteFood"/>
+        <Class IRI="/NonEdibleWasteFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Recycling"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Retailers"/>
+        <Class IRI="/FoodSuppliers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Retailers"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellfoodto"/>
+                <Class IRI="/FoodSuppliers"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/sellpreparedfoodto"/>
+                <Class IRI="/Consumers"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Vegetables"/>
+        <Class IRI="/FoodCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Vitamin"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WasteFood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+            <Class IRI="/WasteFoodSources"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WasteFood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/haspossiblewastefoodprocess"/>
+            <Class IRI="/WasteFoodProcess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WasteFood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/wasfood"/>
+            <Class IRI="/Food"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WasteFood"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+            <Class IRI="/WasteFoodProcess"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Wholesalers"/>
+        <Class IRI="/FoodSuppliers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Wholesalers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/distributefoodto"/>
+            <Class IRI="/Retailers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/Carbs"/>
+        <Class IRI="/Lipid"/>
+        <Class IRI="/Mineral"/>
+        <Class IRI="/Protein"/>
+        <Class IRI="/Vitamin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Consumers"/>
+        <Class IRI="/FoodSuppliers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Consumers"/>
+        <Class IRI="/GouvernmentFacilities"/>
+        <Class IRI="/Industries"/>
+        <Class IRI="/NonProfitOrganizations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/CupboardShelfLife"/>
+        <Class IRI="/FreezerShelfLife"/>
+        <Class IRI="/FridgeShelfLife"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Disposal"/>
+        <Class IRI="/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e"/>
+        <Class IRI="/IndustrialUse"/>
+        <Class IRI="/Recycling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/EdibleWasteFood"/>
+        <Class IRI="/NonEdibleWasteFood"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Farmers"/>
+        <Class IRI="/FoodProducers"/>
+        <Class IRI="/FoodServices"/>
+        <Class IRI="/Retailers"/>
+        <Class IRI="/Wholesalers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/NonOrganic-useRecyclableWasteFood"/>
+        <Class IRI="/OrganicRecyclableWasteFood"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/NonRecyclableWasteFood"/>
+        <Class IRI="/RecyclableWasteFood"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="/FoodCategory"/>
+        <Class IRI="/CannedBottledGoods"/>
+        <Class IRI="/DairyProducts"/>
+        <Class IRI="/FatProducts"/>
+        <Class IRI="/Fruits"/>
+        <Class IRI="/GrainFlourWheatProducts"/>
+        <Class IRI="/MeatProducts"/>
+        <Class IRI="/Vegetables"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/FoodSuppliers"/>
+        <Class IRI="/Farmers"/>
+        <Class IRI="/FoodProducers"/>
+        <Class IRI="/FoodServices"/>
+        <Class IRI="/Retailers"/>
+        <Class IRI="/Wholesalers"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/NonEdibleWasteFood"/>
+        <Class IRI="/NonRecyclableWasteFood"/>
+        <Class IRI="/RecyclableWasteFood"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+        <Class IRI="/Carbs"/>
+        <Class IRI="/Lipid"/>
+        <Class IRI="/Mineral"/>
+        <Class IRI="/Protein"/>
+        <Class IRI="/Vitamin"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/RecyclableWasteFood"/>
+        <Class IRI="/NonOrganic-useRecyclableWasteFood"/>
+        <Class IRI="/OrganicRecyclableWasteFood"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/ShelfLife"/>
+        <Class IRI="/CupboardShelfLife"/>
+        <Class IRI="/FreezerShelfLife"/>
+        <Class IRI="/FridgeShelfLife"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/WasteFood"/>
+        <Class IRI="/EdibleWasteFood"/>
+        <Class IRI="/NonEdibleWasteFood"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/WasteFoodProcess"/>
+        <Class IRI="/Disposal"/>
+        <Class IRI="/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e"/>
+        <Class IRI="/IndustrialUse"/>
+        <Class IRI="/Recycling"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="/WasteFoodSources"/>
+        <Class IRI="/Consumers"/>
+        <Class IRI="/FoodSuppliers"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="/Consumers"/>
+        <NamedIndividual IRI="#Bob"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Location"/>
+        <NamedIndividual IRI="#California"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Food"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/HomelessShelters"/>
+        <NamedIndividual IRI="#Homeless_shelter_X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CupboardShelfLife"/>
+        <NamedIndividual IRI="#Medium_shelf_life"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Vegetables"/>
+        <NamedIndividual IRI="#Onions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e"/>
+        <NamedIndividual IRI="#Using_food_in_a_homeless_shelter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Method"/>
+        <NamedIndividual IRI="#drop_off_at_door"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DropOffSpecification"/>
+        <NamedIndividual IRI="#drop_off_specs_number_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/FoodRequest"/>
+        <NamedIndividual IRI="#food_request_number_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/TimeInterval"/>
+        <NamedIndividual IRI="#24_on_24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/EdibleWasteFood"/>
+        <NamedIndividual IRI="#Bob&apos;s_crate_of_onion"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/havefoodrequest"/>
+        <NamedIndividual IRI="#Bob"/>
+        <NamedIndividual IRI="#food_request_number_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/purchase"/>
+        <NamedIndividual IRI="#Bob"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/redistributefoodby"/>
+        <NamedIndividual IRI="#Bob"/>
+        <NamedIndividual IRI="#Using_food_in_a_homeless_shelter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hascategory"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+        <NamedIndividual IRI="#Onions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/havefoodrequest"/>
+        <NamedIndividual IRI="#Homeless_shelter_X"/>
+        <NamedIndividual IRI="#food_request_number_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasshelflife"/>
+        <NamedIndividual IRI="#Onions"/>
+        <NamedIndividual IRI="#Medium_shelf_life"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/iscategoryof"/>
+        <NamedIndividual IRI="#Onions"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/haslocation"/>
+        <NamedIndividual IRI="#drop_off_specs_number_1"/>
+        <NamedIndividual IRI="#California"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasmethod"/>
+        <NamedIndividual IRI="#drop_off_specs_number_1"/>
+        <NamedIndividual IRI="#drop_off_at_door"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hastimeinterval"/>
+        <NamedIndividual IRI="#drop_off_specs_number_1"/>
+        <NamedIndividual IRI="#24_on_24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+        <NamedIndividual IRI="#food_request_number_1"/>
+        <NamedIndividual IRI="#drop_off_specs_number_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+        <NamedIndividual IRI="#Bob&apos;s_crate_of_onion"/>
+        <NamedIndividual IRI="#Bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+        <NamedIndividual IRI="#Bob&apos;s_crate_of_onion"/>
+        <NamedIndividual IRI="#Using_food_in_a_homeless_shelter"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Location_details"/>
+        <NamedIndividual IRI="#California"/>
+        <Literal>West street, door 3020, next to Mary Jane Institution</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/durationSinceProduction"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+        <Literal>&apos;2 and a half months&apos;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/isExpired"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/isObsolete"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/isUnwanted"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/preservationMethod"/>
+        <NamedIndividual IRI="#Crate_of_onions"/>
+        <Literal>&apos;Cupboard&apos;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Medium_shelf_life"/>
+        <Literal>&apos;Maximum 3 months&apos;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#method_explanation"/>
+        <NamedIndividual IRI="#drop_off_at_door"/>
+        <Literal>Drop off food at door, and just ring it</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#time_interval_value"/>
+        <NamedIndividual IRI="#24_on_24"/>
+        <Literal>24 hours, everyday</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/disposeby"/>
+        <ObjectProperty IRI="/savefoodby"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/distributefoodto"/>
+        <ObjectProperty IRI="#supplyFood"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hascontact"/>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/haslocation"/>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasmethod"/>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hastimeinterval"/>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/recycleby"/>
+        <ObjectProperty IRI="/savefoodby"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/redistributefoodby"/>
+        <ObjectProperty IRI="/savefoodby"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sellfoodto"/>
+        <ObjectProperty IRI="#supplyFood"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sellpreparedfoodto"/>
+        <ObjectProperty IRI="#supplyFood"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sellprocessedfoodto"/>
+        <ObjectProperty IRI="#supplyFood"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sellrawmaterialto"/>
+        <ObjectProperty IRI="#supplyFood"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sellunprocessedfoodto"/>
+        <ObjectProperty IRI="#supplyFood"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/usewastefoodforindustrialuse"/>
+        <ObjectProperty IRI="/savefoodby"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+        <ObjectProperty IRI="#createWasteFood"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/hascategory"/>
+        <ObjectProperty IRI="/iscategoryof"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/hascategory"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/wasfood"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="/iscategoryof"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#createWasteFood"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requestCategory"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#supply"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#supplyFood"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/comsume"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/disposeby"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/distributefoodto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hascategory"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hascontact"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/haslocation"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hasmethod"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hasnutrient"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/haspossiblewastefoodprocess"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hasshelflife"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/hastimeinterval"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/havefoodrequest"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/iscategoryof"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/manage"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/purchase"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/recycleby"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/redistributefoodby"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/savefoodby"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sellfoodto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sellpreparedfoodto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sellprocessedfoodto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sellrawmaterialto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sellunprocessedfoodto"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/usewastefoodforindustrialuse"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/wasfood"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#createWasteFood"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requestCategory"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#supply"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#supplyFood"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/comsume"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/disposeby"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/distributefoodto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hascategory"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hascontact"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/haslocation"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hasmethod"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hasnutrient"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/haspossiblewastefoodprocess"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hasshelflife"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/hastimeinterval"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/havefoodrequest"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/iscategoryof"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/manage"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/purchase"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/recycleby"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/redistributefoodby"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/savefoodby"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/sellfoodto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/sellpreparedfoodto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/sellprocessedfoodto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/sellrawmaterialto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/sellunprocessedfoodto"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/usewastefoodforindustrialuse"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="/wasfood"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+        <Class IRI="/WasteFood"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#createWasteFood"/>
+        <Class IRI="/WasteFoodSources"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+        <Class IRI="/DropOffSpecification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requestCategory"/>
+        <Class IRI="/FoodRequest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supply"/>
+        <Class IRI="/FoodSuppliers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supplyFood"/>
+        <Class IRI="/FoodSuppliers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/comsume"/>
+        <Class IRI="/Consumers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/disposeby"/>
+        <Class IRI="/GouvernmentFacilities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/distributefoodto"/>
+        <Class IRI="/Wholesalers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+        <Class IRI="/WasteFood"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hascategory"/>
+        <Class IRI="/Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hascontact"/>
+        <Class IRI="/DropOffSpecification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+        <Class IRI="/FoodRequest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/haslocation"/>
+        <Class IRI="/DropOffSpecification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasmethod"/>
+        <Class IRI="/DropOffSpecification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasnutrient"/>
+        <Class IRI="/Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/haspossiblewastefoodprocess"/>
+        <Class IRI="/WasteFood"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasshelflife"/>
+        <Class IRI="/FoodCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hastimeinterval"/>
+        <Class IRI="/DropOffSpecification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/havefoodrequest"/>
+        <Class IRI="/WasteFoodActors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/iscategoryof"/>
+        <Class IRI="/FoodCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/manage"/>
+        <Class IRI="/WasteFoodActors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/purchase"/>
+        <Class IRI="/Consumers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/recycleby"/>
+        <ObjectUnionOf>
+            <Class IRI="/Consumers"/>
+            <Class IRI="/FoodAndAgricultureOrganizations"/>
+            <Class IRI="/GouvernmentFacilities"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/redistributefoodby"/>
+        <ObjectUnionOf>
+            <Class IRI="/Consumers"/>
+            <Class IRI="/NonProfitOrganizations"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/savefoodby"/>
+        <Class IRI="/WasteFoodActors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/sellfoodto"/>
+        <Class IRI="/Retailers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/sellpreparedfoodto"/>
+        <ObjectUnionOf>
+            <Class IRI="/FoodServices"/>
+            <Class IRI="/Retailers"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/sellprocessedfoodto"/>
+        <Class IRI="/FoodProducers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/sellrawmaterialto"/>
+        <Class IRI="/Farmers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/sellunprocessedfoodto"/>
+        <Class IRI="/Farmers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/usewastefoodforindustrialuse"/>
+        <Class IRI="/Industries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/wasfood"/>
+        <ObjectUnionOf>
+            <Class IRI="/ConsumedFood"/>
+            <Class IRI="/WasteFood"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comesFromWasteFoodSource"/>
+        <Class IRI="/WasteFoodSources"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#createWasteFood"/>
+        <Class IRI="/WasteFood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDropOffSpecificationDetails"/>
+        <ObjectUnionOf>
+            <Class IRI="/Contact"/>
+            <Class IRI="/Location"/>
+            <Class IRI="/Method"/>
+            <Class IRI="/TimeInterval"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requestCategory"/>
+        <Class IRI="/FoodCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supply"/>
+        <Class IRI="/Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supplyFood"/>
+        <ObjectUnionOf>
+            <Class IRI="/Consumers"/>
+            <Class IRI="/FoodSuppliers"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/comsume"/>
+        <Class IRI="/ConsumedFood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/disposeby"/>
+        <Class IRI="/Disposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/distributefoodto"/>
+        <Class IRI="/Retailers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasbestwastefoodprocess"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hascategory"/>
+        <Class IRI="/FoodCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hascontact"/>
+        <Class IRI="/Contact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasdropoffspecification"/>
+        <Class IRI="/DropOffSpecification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/haslocation"/>
+        <Class IRI="/Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasmethod"/>
+        <Class IRI="/Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasnutrient"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/haspossiblewastefoodprocess"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasshelflife"/>
+        <Class IRI="/ShelfLife"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hastimeinterval"/>
+        <Class IRI="/TimeInterval"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/havefoodrequest"/>
+        <Class IRI="/FoodRequest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/iscategoryof"/>
+        <Class IRI="/Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/manage"/>
+        <Class IRI="/WasteFood"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/purchase"/>
+        <Class IRI="/Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/recycleby"/>
+        <Class IRI="/Recycling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/redistributefoodby"/>
+        <Class IRI="/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/savefoodby"/>
+        <Class IRI="/WasteFoodProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/sellfoodto"/>
+        <ObjectUnionOf>
+            <Class IRI="/Consumers"/>
+            <Class IRI="/FoodServices"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/sellpreparedfoodto"/>
+        <Class IRI="/Consumers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/sellprocessedfoodto"/>
+        <Class IRI="/Wholesalers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/sellrawmaterialto"/>
+        <Class IRI="/FoodProducers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/sellunprocessedfoodto"/>
+        <Class IRI="/Wholesalers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/usewastefoodforindustrialuse"/>
+        <Class IRI="/IndustrialUse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/wasfood"/>
+        <Class IRI="/Food"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/isUnwanted"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Location_details"/>
+        <Class IRI="/Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="/ShelfLife"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#method_explanation"/>
+        <Class IRI="/Method"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#time_interval_value"/>
+        <Class IRI="/TimeInterval"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/amount"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/durationSinceProduction"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ediblePart"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/energy"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/isExpired"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/isObsolete"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/isUnwanted"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/preservationMethod"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/quantity"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/unit"/>
+        <Class IRI="/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/water"/>
+        <Class IRI="/Food"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Location_details"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#method_explanation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#time_interval_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/amount"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/durationSinceProduction"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ediblePart"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/energy"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/isExpired"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/isObsolete"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/isUnwanted"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/preservationMethod"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/quantity"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/water"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location_details</IRI>
+        <Literal>Location of drop off details</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#comesFromWasteFoodSource</IRI>
+        <Literal>A proprety that details for  a waste food its source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#createWasteFood</IRI>
+        <Literal>A property that is used to join the waste food with its sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDropOffSpecificationDetails</IRI>
+        <Literal>A property that links a food request  to the details needed in order  to deliver it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#method_explanation</IRI>
+        <Literal>method of drop off of the requested food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#requestCategory</IRI>
+        <Literal>A property that links a food request to the needed food category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#supply</IRI>
+        <Literal>A property that links food suppliers to food, by the act of supplying it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#supplyFood</IRI>
+        <Literal>A property that describes the different ways food suppliers distribute food between them and eventually to the consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#time_interval_value</IRI>
+        <Literal>Time interval, in days, and hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/CannedBottledGoods</IRI>
+        <Literal>Canned And Bottled Goods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Carbs</IRI>
+        <Literal>Carbs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/ConsumedFood</IRI>
+        <Literal>The food that was consumed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ConsumedFood</IRI>
+        <Literal>Consumed Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Consumers</IRI>
+        <Literal>Individuals, that buy and consume food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Consumers</IRI>
+        <Literal>Consumers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Contact</IRI>
+        <Literal>The email, telephone and/or any other contact method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Contact</IRI>
+        <Literal>Contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/CupboardShelfLife</IRI>
+        <Literal>Cupboard Shelf life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DairyProducts</IRI>
+        <Literal>Dairy Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Disposal</IRI>
+        <Literal>Methods of disposal as incineration, landfills.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Disposal</IRI>
+        <Literal>Disposal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/DropOffSpecification</IRI>
+        <Literal>The complete details for a food request, made by a waste food actor, in order to retrieve some waste food and save it. The specifications help volunteers, consumers, organizations, food suppliers ... to deliever the waste food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DropOffSpecification</IRI>
+        <Literal>Drop Off Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/EdibleWasteFood</IRI>
+        <Literal>The waste food that can be eaten by people</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/EdibleWasteFood</IRI>
+        <Literal>Edible Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Farmers</IRI>
+        <Literal>Farmers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FatProducts</IRI>
+        <Literal>Fat Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e</IRI>
+        <Literal>Feeding people in need, the homeless, poor ...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FeedingPeople_7a3d487e-7bfa-414a-9cae-63cca971ed2e</IRI>
+        <Literal>Feeding people</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Food</IRI>
+        <Literal>A specific good, can be a simple food (fruits, vegetables ...) or a composed one (cooked meal, chocolate bar ...)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Food</IRI>
+        <Literal>Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FoodAndAgricultureOrganizations</IRI>
+        <Literal>Food and Agriculture Organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/FoodCategory</IRI>
+        <Literal>The different categories of food based on main components, nature and  preservation methods.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FoodCategory</IRI>
+        <Literal>Food Category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/FoodProducers</IRI>
+        <Literal>Any entity that processes food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FoodProducers</IRI>
+        <Literal>Food Producers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/FoodRequest</IRI>
+        <Literal>A request for food, made by waste food actors, in order to facilitate obtaining waste food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FoodRequest</IRI>
+        <Literal>Food Request</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/FoodServices</IRI>
+        <Literal>Any service providing prepared food, such as bakeries, restaurants, hotels ...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FoodServices</IRI>
+        <Literal>Food Services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/FoodSuppliers</IRI>
+        <Literal>Food supply chain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FoodSuppliers</IRI>
+        <Literal>Food Suppliers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FreezerShelfLife</IRI>
+        <Literal>Freezer Shelf Life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/FridgeShelfLife</IRI>
+        <Literal>Fridge Shelf Life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Fruits</IRI>
+        <Literal>Fruits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/GouvernmentFacilities</IRI>
+        <Literal>Any facility that belongs to the gouvernment and deals with waste food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GouvernmentFacilities</IRI>
+        <Literal>Gouvernment Facilities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/GrainFlourWheatProducts</IRI>
+        <Literal>Grain, Flour And Wheat Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HomelessShelters</IRI>
+        <Literal>Homeless shelters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/IndustrialUse</IRI>
+        <Literal>Process that converts waste food into industrial use, like transforming oil into energy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/IndustrialUse</IRI>
+        <Literal>Industrial Use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Industries</IRI>
+        <Literal>Industries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Lipid</IRI>
+        <Literal>Lipid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Location</IRI>
+        <Literal>The different locations that can use the requested waste food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Location</IRI>
+        <Literal>Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/MeatProducts</IRI>
+        <Literal>Meat Products</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Method</IRI>
+        <Literal>The method in which the requested waste food should be delivered (composting bin, lunch box ...)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Method</IRI>
+        <Literal>Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Mineral</IRI>
+        <Literal>Mineral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/NonEdibleWasteFood</IRI>
+        <Literal>Waste food that is not edible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/NonEdibleWasteFood</IRI>
+        <Literal>Non Edible Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/NonOrganic-useRecyclableWasteFood</IRI>
+        <Literal>Waste food that cannot be recycled for organic use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/NonOrganic-useRecyclableWasteFood</IRI>
+        <Literal>Non Organic-use Recyclable Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/NonProfitOrganizations</IRI>
+        <Literal>Non profit organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/NonRecyclableWasteFood</IRI>
+        <Literal>Waste food that cannot be recycled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/NonRecyclableWasteFood</IRI>
+        <Literal>Non Recyclable Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf</IRI>
+        <Literal>The different nutrients present in a food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Nutrient_c0835a62-ea9e-4759-aebb-6b36e7bebfaf</IRI>
+        <Literal>Nutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/OrganicRecyclableWasteFood</IRI>
+        <Literal>Waste food that can be recycled for organic use purposes (fertilizers for example)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OrganicRecyclableWasteFood</IRI>
+        <Literal>Organic-use recyclable Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Protein</IRI>
+        <Literal>Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/RecyclableWasteFood</IRI>
+        <Literal>Waste food that can be recycled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/RecyclableWasteFood</IRI>
+        <Literal>Recyclable Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Recycling</IRI>
+        <Literal>Different ways of recycling, like composting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Recycling</IRI>
+        <Literal>Recycling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Retailers</IRI>
+        <Literal>Retailers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/ShelfLife</IRI>
+        <Literal>The duration before expiry, for a specific food category, in specific circumstances (fridge, freezer, cupboard)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ShelfLife</IRI>
+        <Literal>Shelf Life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/TimeInterval</IRI>
+        <Literal>The time interval or intervals in which the requested waste food can be received by the facility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/TimeInterval</IRI>
+        <Literal>Time Interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Vegetables</IRI>
+        <Literal>Vegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Vitamin</IRI>
+        <Literal>Vitamin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/WasteFood</IRI>
+        <Literal>The food that is unwanted, expired or obselete, thus wasted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/WasteFood</IRI>
+        <Literal>Waste Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/WasteFoodActors</IRI>
+        <Literal>Any actor that can contribute to reduce waste food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/WasteFoodActors</IRI>
+        <Literal>Waste Food Actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/WasteFoodProcess</IRI>
+        <Literal>Any process that deals with waste food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/WasteFoodProcess</IRI>
+        <Literal>Waste Food Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/WasteFoodSources</IRI>
+        <Literal>Any waste food source, linked to production and consumption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/WasteFoodSources</IRI>
+        <Literal>Waste Food Sources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Wholesalers</IRI>
+        <Literal>Wholesalers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/amount</IRI>
+        <Literal>The amount of nutrient in a food, in the spcified unit property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/amount</IRI>
+        <Literal>amount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/comsume</IRI>
+        <Literal>A property that details the food consumed by the consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/comsume</IRI>
+        <Literal>comsume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/disposeby</IRI>
+        <Literal>disposeBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/distributefoodto</IRI>
+        <Literal>Wholesalers sell food in quantities to retailers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/distributefoodto</IRI>
+        <Literal>distributeFoodTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/durationSinceProduction</IRI>
+        <Literal>The duration elapsed since a certain food was produced or harvested, in hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/durationSinceProduction</IRI>
+        <Literal>duration since production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/ediblePart</IRI>
+        <Literal>The percentage of edible parts in a food, a real between 0 and 100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ediblePart</IRI>
+        <Literal>edible part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/energy</IRI>
+        <Literal>The amount of energy in a specific food, KCal/100g</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/energy</IRI>
+        <Literal>energy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasbestwastefoodprocess</IRI>
+        <Literal>A property that links a specific waste food to the most adequate waste food process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasbestwastefoodprocess</IRI>
+        <Literal>hasBestWasteFoodProcess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hascategory</IRI>
+        <Literal>A property that specifies the different categories of food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hascategory</IRI>
+        <Literal>hasCategory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hascontact</IRI>
+        <Literal>A property that links the drop off details of a foodreques to the contact (email, telephone ...) of the organization/facility requesting food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hascontact</IRI>
+        <Literal>hasContact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasdropoffspecification</IRI>
+        <Literal>A property that links a food request to how this food will be received</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasdropoffspecification</IRI>
+        <Literal>hasDropOffSpecification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/haslocation</IRI>
+        <Literal>A property that links the  different locations that can use the requested waste food with the drop off specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/haslocation</IRI>
+        <Literal>hasLocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasmethod</IRI>
+        <Literal>A proprety that links  drop off details to the method in which the requested waste food should be delivered (composting bin, lunch box ...)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasmethod</IRI>
+        <Literal>hasMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasnutrient</IRI>
+        <Literal>A property that specifies the nutrients present in a food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasnutrient</IRI>
+        <Literal>hasNutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/haspossiblewastefoodprocess</IRI>
+        <Literal>A property that links a specific waste food to all possible waste food process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/haspossiblewastefoodprocess</IRI>
+        <Literal>hasPossibleWasteFoodProcess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hasshelflife</IRI>
+        <Literal>A property that determines the duration before expiry, for a specific food category, in specific circumstances (fridge, freezer, cupboard)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hasshelflife</IRI>
+        <Literal>hasShelfLife</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/hastimeinterval</IRI>
+        <Literal>A property that links drop off details to the time interval or intervals in which the requested waste food can be received by the facility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/hastimeinterval</IRI>
+        <Literal>hasTimeInterval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/havefoodrequest</IRI>
+        <Literal>A property that links waste food actors  to their active food request or other active food request</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/havefoodrequest</IRI>
+        <Literal>haveFoodRequest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/isExpired</IRI>
+        <Literal>A property that specifies if a certain food is expired (duration since production &gt; shelf life)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/isExpired</IRI>
+        <Literal>is expired</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/isObsolete</IRI>
+        <Literal>A property that specifies if a food can be used anymore, for any specific reason</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/isObsolete</IRI>
+        <Literal>is obsolete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/isUnwanted</IRI>
+        <Literal>A property that specifies if a certain food is unwanted,, and not going to be used,  either by a consumer or a food supplier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/isUnwanted</IRI>
+        <Literal>is unwanted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/iscategoryof</IRI>
+        <Literal>A property that links diffrerents food categories to different food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/iscategoryof</IRI>
+        <Literal>isCategoryOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/manage</IRI>
+        <Literal>A property that indicates that waste food actors manage/ exploit waste food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/manage</IRI>
+        <Literal>manage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/preservationMethod</IRI>
+        <Literal>The method with which food is preserved (cupboard, freezer, fridge)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/preservationMethod</IRI>
+        <Literal>preservation method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/purchase</IRI>
+        <Literal>A property between consumers and purchased food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/purchase</IRI>
+        <Literal>purchase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/quantity</IRI>
+        <Literal>The quantity of a specific food, in grammes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/quantity</IRI>
+        <Literal>quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/recycleby</IRI>
+        <Literal>recycleBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/redistributefoodby</IRI>
+        <Literal>redistributeFoodBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/savefoodby</IRI>
+        <Literal>A property that describes the different actions food actors can opt to, in order to save food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/savefoodby</IRI>
+        <Literal>saveFoodBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/sellfoodto</IRI>
+        <Literal>retailers sell food in rather small quantities to consumers or food services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sellfoodto</IRI>
+        <Literal>sellFoodTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/sellpreparedfoodto</IRI>
+        <Literal>A property that links prepared food providers (foor services and retailers) to the consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sellpreparedfoodto</IRI>
+        <Literal>sellPreparedFoodTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/sellprocessedfoodto</IRI>
+        <Literal>Food producers process food and sell it to wholesalers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sellprocessedfoodto</IRI>
+        <Literal>sellProcessedFoodTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/sellrawmaterialto</IRI>
+        <Literal>Farmers sell raw material to producers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sellrawmaterialto</IRI>
+        <Literal>sellRawMaterialTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/sellunprocessedfoodto</IRI>
+        <Literal>Farmers sell food that does not need processing to wholesaler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sellunprocessedfoodto</IRI>
+        <Literal>sellUnprocessedFoodTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/unit</IRI>
+        <Literal>The unit to measure a nutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/unit</IRI>
+        <Literal>unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/usewastefoodforindustrialuse</IRI>
+        <Literal>useWasteFoodForIndustrialUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/wasfood</IRI>
+        <Literal>A property that links waste food and consumed food to their past form : food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/wasfood</IRI>
+        <Literal>wasFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/water</IRI>
+        <Literal>The percentage of water in a food, a real between 0 and 100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/water</IRI>
+        <Literal>water</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
